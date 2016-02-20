@@ -1,0 +1,78 @@
+body{
+	margin:0;
+	font-family:"微软雅黑";
+	font-size:24px;
+	background-image:url(../images/beijing.jpg);
+}
+
+#frame{
+	width:880px;
+	height:300px;
+	margin:10px auto;
+	/*border:1px solid #adcefa;*/
+}
+.word{
+	width:80px;
+	height:80px;
+	margin:4px;
+	border-radius:50%;
+	font-size:30px;
+	/*background:#fada45;*/
+	float:left;
+	line-height:80px;
+	text-align:center;
+	color:red;
+}
+#time{
+	width:80px;
+	height:30px;
+	background:black;
+	text-align:center;
+	line-height:30px;
+	color:red;
+	margin-top:-50px;
+	margin-left:100px;
+}
+#else{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:22px;
+    color:#ff6688;
+    line-height: 70px;
+    border-radius: 10px;
+    position:absolute;
+    left:50px;
+    top:150px;
+    box-shadow:#aaccaa 0px 0px 20px inset;
+}
+#shezhi{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:22px;
+    color:#ff6688;
+    line-height: 70px;
+    border-radius: 10px;
+    position:absolute;
+    left:50px;
+    top:230px;
+    box-shadow:#aaccaa 0px 0px 20px inset;
+}
+.header{
+	width:400px;
+	height:100px;
+	margin:10px auto;
+}
+.guize{
+	width:200px;
+	height:100px;
+	border-radius:20px;
+	position:absolute;
+	left:30px;
+	bottom:200px;
+	background:black;
+	opacity:0.6;
+	color:white;
+	font-size:14px;
+}

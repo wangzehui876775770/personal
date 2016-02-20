@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	font-family:"Cooper";
+	background-image:url(../images/beijing1.jpg);
+	background-repeat: no-repeat;
+}
+.buju{
+	margin-top:50px;
+	margin-left:200px;
+	border:1px solid black;
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+#beijing{
+	width:1280px;
+	height:700px;
+	margin:0 auto;
+	border-top:1px solid black;
+	position:relative;
+
+}
+/*--------------------------------五子棋-------------------------------------*/
+#qipan{
+	width:600px;
+	height:600px;
+	border:1px solid black;
+	background:#9A4F0C;
+	border-radius:10px;
+	position:relative;
+}
+.weizhi{
+	width:50px;
+	height:50px;
+	float:left;
+}
+.qiziW{
+	width:45px;
+	height:45px;
+	background:#fff;
+	box-shadow:1px 1px 3px #111 ;
+	border-radius:50%;
+}
+.qiziB{
+	width:45px;
+	height:45px;
+	background:black;
+	box-shadow:1px 1px 3px #bbb ;
+	border-radius:50%;
+}
+/*-----------------*/
+#else{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:22px;
+    color:#b40000;
+    line-height: 70px;
+    background-image: url(../images/shezhi.png);
+    position:absolute;
+    left:50px;
+    top:500px;
+}
+#shezhi{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:22px;
+    color:#b40000;
+    line-height: 70px;
+    background-image: url(../images/shezhi.png);
+    position:absolute;
+    left:50px;
+    top:600px;
+}

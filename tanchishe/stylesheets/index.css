@@ -1,0 +1,89 @@
+body{
+	margin:0;
+	font-family:"微软雅黑";
+	background-image:url('../images/beijing.jpg');
+}
+.buju{
+	margin:30px auto;
+	/*border:1px solid black;*/
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+
+/*-----------------------------------贪吃蛇-----------------------------------*/
+#tanchishe{
+	width:600px;
+	height:600px;
+	margin-top:20px;
+	margin-left:200px;
+	background:#aaa;
+	position:relative;
+	border-right: 1px solid #aaa;
+	border-bottom:1px solid #aaa;
+}
+.blocks{
+	width:39px;
+	height:39px;
+	margin:1px 0 0 1px;
+	background:#fff;
+	float:left;
+}
+
+#else{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:16px;
+    color:#b40000;
+    line-height: 70px;
+    position:absolute;
+    left:50px;
+    top:290px;
+    background-image:url('../images/tobiao.jpg');
+    opacity:0.8;
+    border-radius:5px;
+}
+#shezhi{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:16px;
+    color:#b40000;
+    line-height: 70px;
+    position:absolute;
+    left:50px;
+    top:210px;
+    background-image:url('../images/tobiao.jpg');
+    opacity:0.8;
+    border-radius:5px;
+}
+#stop{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:16px;
+    color:#b40000;
+    line-height: 70px;
+    position:absolute;
+    left:50px;
+    top:130px;
+    background-image:url('../images/tobiao.jpg');
+    opacity:0.8;
+    border-radius:5px;
+}
+#start{
+    width:100px;
+    height:70px;
+    text-align: center;
+    font-size:16px;
+    color:#b40000;
+    line-height: 70px;
+    position:absolute;
+    left:50px;
+    top:50px;
+    background-image:url('../images/tobiao.jpg');
+    opacity:0.8;
+    border-radius:5px;
+}

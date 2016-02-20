@@ -1,0 +1,277 @@
+body{
+	margin: 0;
+	font-family: "微软雅黑";
+	min-width:980px;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p{
+	margin: 0;
+	padding: 0;
+	/*使用ul和li的时候去掉默认的小圆点*/
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #4078c0;
+}
+a:hover{
+	text-decoration: underline;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+}
+.section{
+	padding: 80px 0;
+	border-bottom: 1px solid #cccccc;
+}
+/********头部从这里开始********/
+.header{
+	padding: 15px 0;
+	/*border: 1px solid blue;*/
+	background: #f5f5f5;
+}
+.header-c{
+	height: 28px;
+	line-height: 28px;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.logo:hover{
+	color: rgb(39, 57, 247);
+}
+.search{
+	height:28px;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px; 
+	background:#fff;
+	padding-left: 10px;
+	font-size: 12px;
+	color: #ccc;
+	width: 360px;
+	margin-right: 15px;
+}
+.functionlist{
+	float: left;
+}
+/*后代选择器*/
+.functionlist li{
+	float: left;
+	padding: 0 6px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.functionlist li:hover{
+	color: rgb(39, 57, 247);
+}
+/*群组选择器*/
+.signin,.signup{
+	float: right;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 13px;
+	margin-top: -5px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.signin{
+	margin-left: 10px;
+	background-image: linear-gradient(#fcfcfc, #eee);
+}
+.signin:hover{
+	box-shadow: 1px 1px 25px #ccc inset,-1px -1px 25px #ccc inset;
+}
+.signup{
+	color: #fff;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.signup:hover{
+	box-shadow: 1px 1px 25px #60b044 inset,-1px -1px 25px #60b044 inset;
+}
+
+/********主体部分的第一块从这里开始**********/
+.main{
+	margin-bottom: -1px;
+	background: #202020 url("../img/octicons-bg.png");
+}
+/*TODO:待优化（浮动的收缩问题）*/
+.main-c{
+	height: 351px;
+}
+.main-intro{
+	width: 640px;
+	color: #f5f5f5;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.main-intro p{
+	font-size: 21px;
+	line-height: 1.5em;
+}
+.big-title{
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border: 1px solid white;*/
+	float: right;
+}
+.input{
+	/*height: 22px;*/
+	width:100%;
+	padding: 10px;
+	border: 1px solid white;
+	color: #ccc;
+	font-size: 16px;
+	border-radius: 5px;
+	line-height: 22px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.signup-info{
+	color: #767676;
+	font-size: 13px;
+	margin: 10px 0;
+}
+#btn{
+	text-align: center;
+}
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius: 6px;
+	/*border: 1px solid white;*/
+	cursor: pointer;
+}
+.signup-form .btn{
+	height: 20px;
+	padding: 10px;
+	background-image: linear-gradient(#8add6d, #60b044); 
+    border-color: #5ca941;
+    color: #f5f5f5;
+    font-size: 16px; 
+}
+.signup-form .btn:hover{
+	box-shadow: 1px 1px 30px green inset, 1px 1px 30px green inset;
+}
+
+
+/*******主体部分的第二块从这里开始*********/
+.enterprise{
+	height: 205px;
+	background-image:linear-gradient(#202d5f,#614381); 
+	overflow: hidden;
+}
+/*后代选择器*/
+.enterprise h2{
+	color: #f5f5f5;
+}
+.sub-title{
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+}
+/*TODO:待优化*/
+.btn-blue{
+	/*width: 346px;*/
+	display: inline-block;
+	margin:12px auto;
+	background-image: linear-gradient(#45b3f3, #1d6ac8); 
+}
+.btn-blue:hover{
+	box-shadow: 1px 1px 30px #1067D1 inset,-1px -1px 30px #1067D1 inset;
+}
+.gh-image{
+	width: 100%;
+	margin-top: 30px;
+	position: relative;
+}
+.shadow{
+	width: 980px;
+	height: 26px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: -141px;
+	box-shadow: 2px 2px 60px rgb(228, 228, 228) inset;
+	/*box-shadow: 1px 1px 30px rgb(162, 162, 162);*/
+	position: absolute;
+}
+
+/**********主体部分的第三块从这里开始************/
+.love{
+	width: 1004px;
+	height: 620px;
+}
+.love-reason{
+	width: 450px;
+	height:195px;
+	/*border: 1px solid red;*/
+	padding: 20px 25px 40px;
+	float: left;
+	text-align: center;
+}
+.love .sub-info{
+	margin-bottom: 20px;
+}
+/************主体部分的第四块从这里开始*************/
+.sub-info{
+	font-size: 16px;
+	color: #767676;
+	text-align: center;
+	margin-top: 10px;
+}
+.btn-green{
+	/*width: 287px;*/
+	display: inline-block;
+	margin:12px auto 0; 
+	background-image: linear-gradient(#8add6d, #60b044); 
+    border-color: #5ca941;
+}
+.btn-green:hover{
+	box-shadow: 1px 1px 30px #49A22A inset,-1px -1px 30px #49A22A inset;
+}
+.image-shadow{
+	box-shadow: 2px 2px 10px #ccc;
+	margin: 40px 0;
+}
+.hide-mac{
+	height: 23px;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: normal;
+}
+/***********底部从这里开始**********/
+.footer{
+	height: 18px;
+	/*border: 1px solid red;*/
+	padding: 40px 0;
+}
+.footer-left,.footer-left li{
+	float: left;
+	font-size: 12px;
+}
+.footer-left li,.footer-right li{
+	margin: 0 6px;
+}
+.footer-right,.footer-right li{
+	float: right;
+	font-size: 12px;
+}
+#mao{
+	width: 340px;
+	/*border: 1px solid red;*/
+	float: left;
+	text-align: center;
+}
